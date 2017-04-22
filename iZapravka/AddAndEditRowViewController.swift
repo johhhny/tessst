@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 class AddAndEditRowViewController: UIViewController, UITextFieldDelegate {
-    
+    //erwerwre
     @IBOutlet weak var literTextField: UITextField!         //Текстовое поле для ввода кол-ва литров
     @IBOutlet weak var priceTextField: UITextField!         //Текстовое поле для ввода цены
     @IBOutlet weak var wayTextField: UITextField!           //Текстовое поле для ввода пробега
