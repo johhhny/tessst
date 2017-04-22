@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053EF6DFC0496BF00C5412F8BA5642B0 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B93709A4732637EA7AC6668A3A6733 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BA0A4FA20C1D1B77431A74884152594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		0C10B4266F16FDA5507F2703FD285FB2 /* Pods-iZapravka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B21499ED862EB7059323C554DF83 /* Pods-iZapravka-dummy.m */; };
+		0E169AC04A26C1CBDCFE5E5DE26DAAB3 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE63F42B48574F4130FD20B3A607DD2C /* UIColor_Hex_Swift-dummy.m */; };
+		33FA6FACE6755DD73F19E0336481FCB1 /* ScrollableGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 772520CE82F6DADCA4346C66BDBAF4C6 /* ScrollableGraphView-dummy.m */; };
+		42AC146133CF8B750F49ACE5FC15C2CB /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA98D8FC816C4E3362CC93168564CD0 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6451F83FA962C76A952C82FE4E1986 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC072CB238377AE829812F5FC88B63 /* UIColorExtension.swift */; };
+		603ABD2DF0C5651755970D0C51CAAD72 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1B21BE2CCCCF51BC6C4971C5A4784 /* ScrollableGraphView.swift */; };
+		7ACFC972FD9F1D0B8586673D4652DFF4 /* ScrollableGraphView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9455F9B49D7291B2E8A0B0358596C38E /* ScrollableGraphView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89DDC62EC602D91883E115A5DE29A328 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9F7E7D1990618C4F15ACB7DF81072C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B3295B0E8FFA15FE4352ECF460C24DF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		D7BFF23166C28D17501792C5F85E078A /* Pods-iZapravka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AABBBD9B9B54A1C8C7286E7FAF6E30C /* Pods-iZapravka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065B16746958C51DD069EAA2D5EEF235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCF838B6B8FEECB65350F3A9289122D;
+			remoteInfo = ScrollableGraphView;
+		};
+		684FC8B312BE9C881451FF88D3882E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE49D347BFB8AFBF351C43C56BC2F5D;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB223CA1B8BB9AD343DB071D4E0C2CC /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		0D6569283310EBDDB81FA16FF0CA98A5 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C6396CE394E893F3233876568D16AA /* Pods-iZapravka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iZapravka.release.xcconfig"; sourceTree = "<group>"; };
+		4CA98D8FC816C4E3362CC93168564CD0 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
+		4EF1B21BE2CCCCF51BC6C4971C5A4784 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphView.swift; path = Classes/ScrollableGraphView.swift; sourceTree = "<group>"; };
+		50CF4D39E5322730A7BB119ED6976C9E /* Pods-iZapravka-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iZapravka-acknowledgements.plist"; sourceTree = "<group>"; };
+		59A521EA857FB795033680DC8EC01B99 /* ScrollableGraphView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollableGraphView.framework; path = ScrollableGraphView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6280699A24B054C17EEA7F75E4C35220 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		762B389312A51334E688138CA1D3C3BB /* Pods-iZapravka-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iZapravka-acknowledgements.markdown"; sourceTree = "<group>"; };
+		772520CE82F6DADCA4346C66BDBAF4C6 /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
+		79B93709A4732637EA7AC6668A3A6733 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		7B46812B1EB7ACAF628EBEB40FF07184 /* Pods-iZapravka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iZapravka.modulemap"; sourceTree = "<group>"; };
+		8AABBBD9B9B54A1C8C7286E7FAF6E30C /* Pods-iZapravka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iZapravka-umbrella.h"; sourceTree = "<group>"; };
+		8D69B21499ED862EB7059323C554DF83 /* Pods-iZapravka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iZapravka-dummy.m"; sourceTree = "<group>"; };
+		908EA2E961C91ABBCEB5813DBF24A57C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ECE88394E31E7569E32FACF33221B1 /* Pods_iZapravka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iZapravka.framework; path = "Pods-iZapravka.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FC072CB238377AE829812F5FC88B63 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9455F9B49D7291B2E8A0B0358596C38E /* ScrollableGraphView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-umbrella.h"; sourceTree = "<group>"; };
+		9654FC870359C9A2B34CCA43CB1DCF8A /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		A9179C77A69167A1532E25A2A3C5D681 /* Pods-iZapravka-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iZapravka-frameworks.sh"; sourceTree = "<group>"; };
+		AE63F42B48574F4130FD20B3A607DD2C /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		B36D377FEC0B748A3C257DE22B27F502 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DEA265E76640FFF60121235D9BDC63 /* ScrollableGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableGraphView.xcconfig; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5390EB065068903533BA17105646824 /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		D603B63B30DC8EE2FB1D549CD06438A2 /* Pods-iZapravka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iZapravka.debug.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC009C79E7F986DA9955A469D163B23A /* Pods-iZapravka-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iZapravka-resources.sh"; sourceTree = "<group>"; };
+		FBC9A3C6F477A20FBF6F0AACC860CE12 /* ScrollableGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-prefix.pch"; sourceTree = "<group>"; };
+		FC2AB2C4D866EB82518466438FA7F0AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601DA6E7C21C853FC8E94FDC8C50B7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7E7D1990618C4F15ACB7DF81072C97 /* Foundation.framework in Frameworks */,
+				B3295B0E8FFA15FE4352ECF460C24DF9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E02B3CC986AEFBBDFCCEA8F181310EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA0A4FA20C1D1B77431A74884152594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E77FCD2E46C82460C8F4C4E09DE6CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DDC62EC602D91883E115A5DE29A328 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06244C2E10EDF145CA00543A4F38A039 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2AB2C4D866EB82518466438FA7F0AB /* Info.plist */,
+				9654FC870359C9A2B34CCA43CB1DCF8A /* ScrollableGraphView.modulemap */,
+				B4DEA265E76640FFF60121235D9BDC63 /* ScrollableGraphView.xcconfig */,
+				772520CE82F6DADCA4346C66BDBAF4C6 /* ScrollableGraphView-dummy.m */,
+				FBC9A3C6F477A20FBF6F0AACC860CE12 /* ScrollableGraphView-prefix.pch */,
+				9455F9B49D7291B2E8A0B0358596C38E /* ScrollableGraphView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScrollableGraphView";
+			sourceTree = "<group>";
+		};
+		27AC64746235A76702AAD646A4EF6EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B2EA9FE2D766E919BA21E547CBD15C9 /* ScrollableGraphView */,
+				3EB9B2A0A3C419637187DED528C63AAD /* UIColor_Hex_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EB9B2A0A3C419637187DED528C63AAD /* UIColor_Hex_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4CA98D8FC816C4E3362CC93168564CD0 /* HEXColor.h */,
+				90FC072CB238377AE829812F5FC88B63 /* UIColorExtension.swift */,
+				CF0686D5B5E4F85E69E280AC243E4296 /* Support Files */,
+			);
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B2EA9FE2D766E919BA21E547CBD15C9 /* ScrollableGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				4EF1B21BE2CCCCF51BC6C4971C5A4784 /* ScrollableGraphView.swift */,
+				06244C2E10EDF145CA00543A4F38A039 /* Support Files */,
+			);
+			name = ScrollableGraphView;
+			path = ScrollableGraphView;
+			sourceTree = "<group>";
+		};
+		6FEA524EF423BA08375908B33BC98FD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2DC3DD58BADAE14238481BEE4611B4 /* Pods-iZapravka */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				27AC64746235A76702AAD646A4EF6EFA /* Pods */,
+				D22197F8A0912AE3EBA7FC3EE9589427 /* Products */,
+				6FEA524EF423BA08375908B33BC98FD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0686D5B5E4F85E69E280AC243E4296 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				908EA2E961C91ABBCEB5813DBF24A57C /* Info.plist */,
+				0BB223CA1B8BB9AD343DB071D4E0C2CC /* UIColor_Hex_Swift.modulemap */,
+				D5390EB065068903533BA17105646824 /* UIColor_Hex_Swift.xcconfig */,
+				AE63F42B48574F4130FD20B3A607DD2C /* UIColor_Hex_Swift-dummy.m */,
+				6280699A24B054C17EEA7F75E4C35220 /* UIColor_Hex_Swift-prefix.pch */,
+				79B93709A4732637EA7AC6668A3A6733 /* UIColor_Hex_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor_Hex_Swift";
+			sourceTree = "<group>";
+		};
+		CF2DC3DD58BADAE14238481BEE4611B4 /* Pods-iZapravka */ = {
+			isa = PBXGroup;
+			children = (
+				B36D377FEC0B748A3C257DE22B27F502 /* Info.plist */,
+				7B46812B1EB7ACAF628EBEB40FF07184 /* Pods-iZapravka.modulemap */,
+				762B389312A51334E688138CA1D3C3BB /* Pods-iZapravka-acknowledgements.markdown */,
+				50CF4D39E5322730A7BB119ED6976C9E /* Pods-iZapravka-acknowledgements.plist */,
+				8D69B21499ED862EB7059323C554DF83 /* Pods-iZapravka-dummy.m */,
+				A9179C77A69167A1532E25A2A3C5D681 /* Pods-iZapravka-frameworks.sh */,
+				DC009C79E7F986DA9955A469D163B23A /* Pods-iZapravka-resources.sh */,
+				8AABBBD9B9B54A1C8C7286E7FAF6E30C /* Pods-iZapravka-umbrella.h */,
+				D603B63B30DC8EE2FB1D549CD06438A2 /* Pods-iZapravka.debug.xcconfig */,
+				21C6396CE394E893F3233876568D16AA /* Pods-iZapravka.release.xcconfig */,
+			);
+			name = "Pods-iZapravka";
+			path = "Target Support Files/Pods-iZapravka";
+			sourceTree = "<group>";
+		};
+		D22197F8A0912AE3EBA7FC3EE9589427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90ECE88394E31E7569E32FACF33221B1 /* Pods_iZapravka.framework */,
+				59A521EA857FB795033680DC8EC01B99 /* ScrollableGraphView.framework */,
+				0D6569283310EBDDB81FA16FF0CA98A5 /* UIColor_Hex_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41E8C4C982B7B66EEA837541498594F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACFC972FD9F1D0B8586673D4652DFF4 /* ScrollableGraphView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819B7B98F9BFEB698C5D98C7AF5CEE0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC146133CF8B750F49ACE5FC15C2CB /* HEXColor.h in Headers */,
+				053EF6DFC0496BF00C5412F8BA5642B0 /* UIColor_Hex_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEC48A63A05469476B9063C894B60A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BFF23166C28D17501792C5F85E078A /* Pods-iZapravka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7CCF838B6B8FEECB65350F3A9289122D /* ScrollableGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7B697A952BD90A10EE7D876E2F2097 /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */;
+			buildPhases = (
+				BC2DA6EA324800E4A5F0224E9CE9773E /* Sources */,
+				8E77FCD2E46C82460C8F4C4E09DE6CAE /* Frameworks */,
+				41E8C4C982B7B66EEA837541498594F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableGraphView;
+			productName = ScrollableGraphView;
+			productReference = 59A521EA857FB795033680DC8EC01B99 /* ScrollableGraphView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FE54FCFD0E8BC20353D354DECA4546F /* Pods-iZapravka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D714FCD3FEA4197DF8E54D7EEFEF1B /* Build configuration list for PBXNativeTarget "Pods-iZapravka" */;
+			buildPhases = (
+				6B75075096F17D95599DC1D4BD843134 /* Sources */,
+				6E02B3CC986AEFBBDFCCEA8F181310EE /* Frameworks */,
+				9AEC48A63A05469476B9063C894B60A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99CD6079243D69DEB827FEFD72EE5C6F /* PBXTargetDependency */,
+				3EA58BCC940FD8FC284A684699931903 /* PBXTargetDependency */,
+			);
+			name = "Pods-iZapravka";
+			productName = "Pods-iZapravka";
+			productReference = 90ECE88394E31E7569E32FACF33221B1 /* Pods_iZapravka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBE49D347BFB8AFBF351C43C56BC2F5D /* UIColor_Hex_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420ADEF06C62C8C1A746F88C2F41AAC8 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
+			buildPhases = (
+				9B9AB9B8C8AB1641A11DB2F329D6D3E9 /* Sources */,
+				601DA6E7C21C853FC8E94FDC8C50B7E5 /* Frameworks */,
+				819B7B98F9BFEB698C5D98C7AF5CEE0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColor_Hex_Swift;
+			productName = UIColor_Hex_Swift;
+			productReference = 0D6569283310EBDDB81FA16FF0CA98A5 /* UIColor_Hex_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D22197F8A0912AE3EBA7FC3EE9589427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE54FCFD0E8BC20353D354DECA4546F /* Pods-iZapravka */,
+				7CCF838B6B8FEECB65350F3A9289122D /* ScrollableGraphView */,
+				EBE49D347BFB8AFBF351C43C56BC2F5D /* UIColor_Hex_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B75075096F17D95599DC1D4BD843134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C10B4266F16FDA5507F2703FD285FB2 /* Pods-iZapravka-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9AB9B8C8AB1641A11DB2F329D6D3E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E169AC04A26C1CBDCFE5E5DE26DAAB3 /* UIColor_Hex_Swift-dummy.m in Sources */,
+				4A6451F83FA962C76A952C82FE4E1986 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2DA6EA324800E4A5F0224E9CE9773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FA6FACE6755DD73F19E0336481FCB1 /* ScrollableGraphView-dummy.m in Sources */,
+				603ABD2DF0C5651755970D0C51CAAD72 /* ScrollableGraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA58BCC940FD8FC284A684699931903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = EBE49D347BFB8AFBF351C43C56BC2F5D /* UIColor_Hex_Swift */;
+			targetProxy = 684FC8B312BE9C881451FF88D3882E6C /* PBXContainerItemProxy */;
+		};
+		99CD6079243D69DEB827FEFD72EE5C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollableGraphView;
+			target = 7CCF838B6B8FEECB65350F3A9289122D /* ScrollableGraphView */;
+			targetProxy = 065B16746958C51DD069EAA2D5EEF235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B08E79D110C673B7E869A1E9A7F6F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DEA265E76640FFF60121235D9BDC63 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A3F698EDEF57A438DB73EA4063645DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5390EB065068903533BA17105646824 /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86BEA10C77A41A9A77D0040EA76465A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C6396CE394E893F3233876568D16AA /* Pods-iZapravka.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iZapravka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iZapravka/Pods-iZapravka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iZapravka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9ABB752C76A68F3D4BD2308FF6F755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D603B63B30DC8EE2FB1D549CD06438A2 /* Pods-iZapravka.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iZapravka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iZapravka/Pods-iZapravka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iZapravka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCD5D6A7002A0A5CF2B30201FEDAF885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DEA265E76640FFF60121235D9BDC63 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFE2AB2AB482E74C800F1F289EDA7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5390EB065068903533BA17105646824 /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D714FCD3FEA4197DF8E54D7EEFEF1B /* Build configuration list for PBXNativeTarget "Pods-iZapravka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ABB752C76A68F3D4BD2308FF6F755F /* Debug */,
+				86BEA10C77A41A9A77D0040EA76465A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7B697A952BD90A10EE7D876E2F2097 /* Build configuration list for PBXNativeTarget "ScrollableGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B08E79D110C673B7E869A1E9A7F6F9C /* Debug */,
+				BCD5D6A7002A0A5CF2B30201FEDAF885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420ADEF06C62C8C1A746F88C2F41AAC8 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3F698EDEF57A438DB73EA4063645DB /* Debug */,
+				EAFE2AB2AB482E74C800F1F289EDA7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - ScrollableGraphView (3.1.0)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - ScrollableGraphView
+  - UIColor_Hex_Swift (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  ScrollableGraphView: e2c8bedc7bbb643e8ac57b9456070d68355c4e4c
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: 2d079087c64b951c2056db8df46722500525ca88
+
+COCOAPODS: 1.2.1

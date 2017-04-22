@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864A1913070DB2D33E7813A8 /* Pods_iZapravka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE27599444CD9EAB42ADCF1 /* Pods_iZapravka.framework */; };
+		CE8218B71E51AAA100E6028B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8218B61E51AAA100E6028B /* CalendarView.swift */; };
+		CEE137A11E3CDDC4001F4734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE137A01E3CDDC4001F4734 /* AppDelegate.swift */; };
+		CEE137A31E3CDDC4001F4734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE137A21E3CDDC4001F4734 /* ViewController.swift */; };
+		CEE137A61E3CDDC4001F4734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE137A41E3CDDC4001F4734 /* Main.storyboard */; };
+		CEE137A91E3CDDC4001F4734 /* iZapravka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE137A71E3CDDC4001F4734 /* iZapravka.xcdatamodeld */; };
+		CEE137AB1E3CDDC4001F4734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE137AA1E3CDDC4001F4734 /* Assets.xcassets */; };
+		CEE137AE1E3CDDC4001F4734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE137AC1E3CDDC4001F4734 /* LaunchScreen.storyboard */; };
+		CEE137B61E3CEF2C001F4734 /* TableViewCellForGasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE137B51E3CEF2C001F4734 /* TableViewCellForGasStation.swift */; };
+		CEE137B81E3CF010001F4734 /* TableViewControllerForGasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE137B71E3CF010001F4734 /* TableViewControllerForGasStation.swift */; };
+		CEE137BA1E3DDC1A001F4734 /* AddAndEditRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE137B91E3DDC1A001F4734 /* AddAndEditRowViewController.swift */; };
+		CEE137BC1E3E4044001F4734 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE137BB1E3E4044001F4734 /* StatisticsViewController.swift */; };
+		CEF143C31E56C57D003F110F /* TableViewControllerReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF143C21E56C57D003F110F /* TableViewControllerReminder.swift */; };
+		CEF143C51E56FF1F003F110F /* addReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF143C41E56FF1F003F110F /* addReminderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64A2BC1963874439F1DC9447 /* Pods-iZapravka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZapravka.release.xcconfig"; path = "Pods/Target Support Files/Pods-iZapravka/Pods-iZapravka.release.xcconfig"; sourceTree = "<group>"; };
+		8AE27599444CD9EAB42ADCF1 /* Pods_iZapravka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iZapravka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29247650D98B147276D94A4 /* Pods-iZapravka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZapravka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iZapravka/Pods-iZapravka.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8218B61E51AAA100E6028B /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CEE1379D1E3CDDC4001F4734 /* iZapravka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZapravka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE137A01E3CDDC4001F4734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE137A21E3CDDC4001F4734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE137A51E3CDDC4001F4734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE137A81E3CDDC4001F4734 /* iZapravka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iZapravka.xcdatamodel; sourceTree = "<group>"; };
+		CEE137AA1E3CDDC4001F4734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE137AD1E3CDDC4001F4734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE137AF1E3CDDC4001F4734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE137B51E3CEF2C001F4734 /* TableViewCellForGasStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellForGasStation.swift; sourceTree = "<group>"; };
+		CEE137B71E3CF010001F4734 /* TableViewControllerForGasStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerForGasStation.swift; sourceTree = "<group>"; };
+		CEE137B91E3DDC1A001F4734 /* AddAndEditRowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAndEditRowViewController.swift; sourceTree = "<group>"; };
+		CEE137BB1E3E4044001F4734 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		CEF143C21E56C57D003F110F /* TableViewControllerReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerReminder.swift; sourceTree = "<group>"; };
+		CEF143C41E56FF1F003F110F /* addReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addReminderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE1379A1E3CDDC4001F4734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864A1913070DB2D33E7813A8 /* Pods_iZapravka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1770653A8370C8348C62193E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B29247650D98B147276D94A4 /* Pods-iZapravka.debug.xcconfig */,
+				64A2BC1963874439F1DC9447 /* Pods-iZapravka.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEE137941E3CDDC4001F4734 = {
+			isa = PBXGroup;
+			children = (
+				CEE1379F1E3CDDC4001F4734 /* iZapravka */,
+				CEE1379E1E3CDDC4001F4734 /* Products */,
+				1770653A8370C8348C62193E /* Pods */,
+				F6ABF869316FD70163FA0217 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE1379E1E3CDDC4001F4734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1379D1E3CDDC4001F4734 /* iZapravka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE1379F1E3CDDC4001F4734 /* iZapravka */ = {
+			isa = PBXGroup;
+			children = (
+				CEE137A01E3CDDC4001F4734 /* AppDelegate.swift */,
+				CEE137A21E3CDDC4001F4734 /* ViewController.swift */,
+				CEE137B91E3DDC1A001F4734 /* AddAndEditRowViewController.swift */,
+				CEE137B51E3CEF2C001F4734 /* TableViewCellForGasStation.swift */,
+				CEE137B71E3CF010001F4734 /* TableViewControllerForGasStation.swift */,
+				CEE137BB1E3E4044001F4734 /* StatisticsViewController.swift */,
+				CE8218B61E51AAA100E6028B /* CalendarView.swift */,
+				CEF143C21E56C57D003F110F /* TableViewControllerReminder.swift */,
+				CEF143C41E56FF1F003F110F /* addReminderViewController.swift */,
+				CEE137A41E3CDDC4001F4734 /* Main.storyboard */,
+				CEE137AA1E3CDDC4001F4734 /* Assets.xcassets */,
+				CEE137AC1E3CDDC4001F4734 /* LaunchScreen.storyboard */,
+				CEE137AF1E3CDDC4001F4734 /* Info.plist */,
+				CEE137A71E3CDDC4001F4734 /* iZapravka.xcdatamodeld */,
+			);
+			path = iZapravka;
+			sourceTree = "<group>";
+		};
+		F6ABF869316FD70163FA0217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE27599444CD9EAB42ADCF1 /* Pods_iZapravka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE1379C1E3CDDC4001F4734 /* iZapravka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE137B21E3CDDC4001F4734 /* Build configuration list for PBXNativeTarget "iZapravka" */;
+			buildPhases = (
+				AB4087B7EEB1620EC4AF1647 /* [CP] Check Pods Manifest.lock */,
+				CEE137991E3CDDC4001F4734 /* Sources */,
+				CEE1379A1E3CDDC4001F4734 /* Frameworks */,
+				CEE1379B1E3CDDC4001F4734 /* Resources */,
+				7545D75D3AD3505A7DDA52BF /* [CP] Embed Pods Frameworks */,
+				A0B83023CBFFA944D561083E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iZapravka;
+			productName = iZapravka;
+			productReference = CEE1379D1E3CDDC4001F4734 /* iZapravka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE137951E3CDDC4001F4734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Johhhny;
+				TargetAttributes = {
+					CEE1379C1E3CDDC4001F4734 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6VU94BJ7PA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEE137981E3CDDC4001F4734 /* Build configuration list for PBXProject "iZapravka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE137941E3CDDC4001F4734;
+			productRefGroup = CEE1379E1E3CDDC4001F4734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE1379C1E3CDDC4001F4734 /* iZapravka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE1379B1E3CDDC4001F4734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE137AE1E3CDDC4001F4734 /* LaunchScreen.storyboard in Resources */,
+				CEE137AB1E3CDDC4001F4734 /* Assets.xcassets in Resources */,
+				CEE137A61E3CDDC4001F4734 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7545D75D3AD3505A7DDA52BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZapravka/Pods-iZapravka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B83023CBFFA944D561083E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZapravka/Pods-iZapravka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4087B7EEB1620EC4AF1647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE137991E3CDDC4001F4734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE137B61E3CEF2C001F4734 /* TableViewCellForGasStation.swift in Sources */,
+				CEE137BA1E3DDC1A001F4734 /* AddAndEditRowViewController.swift in Sources */,
+				CEE137A91E3CDDC4001F4734 /* iZapravka.xcdatamodeld in Sources */,
+				CEF143C31E56C57D003F110F /* TableViewControllerReminder.swift in Sources */,
+				CEE137A31E3CDDC4001F4734 /* ViewController.swift in Sources */,
+				CEE137A11E3CDDC4001F4734 /* AppDelegate.swift in Sources */,
+				CE8218B71E51AAA100E6028B /* CalendarView.swift in Sources */,
+				CEE137B81E3CF010001F4734 /* TableViewControllerForGasStation.swift in Sources */,
+				CEF143C51E56FF1F003F110F /* addReminderViewController.swift in Sources */,
+				CEE137BC1E3E4044001F4734 /* StatisticsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE137A41E3CDDC4001F4734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE137A51E3CDDC4001F4734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE137AC1E3CDDC4001F4734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE137AD1E3CDDC4001F4734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE137B01E3CDDC4001F4734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE137B11E3CDDC4001F4734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE137B31E3CDDC4001F4734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29247650D98B147276D94A4 /* Pods-iZapravka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VU94BJ7PA;
+				INFOPLIST_FILE = iZapravka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Johhhny.iZapravka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEE137B41E3CDDC4001F4734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A2BC1963874439F1DC9447 /* Pods-iZapravka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VU94BJ7PA;
+				INFOPLIST_FILE = iZapravka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Johhhny.iZapravka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE137981E3CDDC4001F4734 /* Build configuration list for PBXProject "iZapravka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE137B01E3CDDC4001F4734 /* Debug */,
+				CEE137B11E3CDDC4001F4734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE137B21E3CDDC4001F4734 /* Build configuration list for PBXNativeTarget "iZapravka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE137B31E3CDDC4001F4734 /* Debug */,
+				CEE137B41E3CDDC4001F4734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEE137A71E3CDDC4001F4734 /* iZapravka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEE137A81E3CDDC4001F4734 /* iZapravka.xcdatamodel */,
+			);
+			currentVersion = CEE137A81E3CDDC4001F4734 /* iZapravka.xcdatamodel */;
+			path = iZapravka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEE137951E3CDDC4001F4734 /* Project object */;
+}
