@@ -9,7 +9,7 @@
 import UIKit
 
 class TableViewCellForGasStation: UITableViewCell {
-
+//hrgb;24tjn24ltg,
     
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var literLabel: UILabel!
