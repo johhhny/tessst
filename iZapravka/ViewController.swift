@@ -11,7 +11,8 @@ import CoreData
 import Foundation
 
 class SingleClass: UIViewController {
-    
+    //ergerrgergerge
+    var a = 6
     var arrayForGasStations = [NSManagedObject]()
     var loadBD: [NSManagedObject] {
         get {
